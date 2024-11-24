@@ -122,3 +122,4 @@ if board[clicked_row][clicked_col] == "":
                 current_player = "O" if current_player == "X" else "T" if current_player == "O" else "X"
 
                 check_winner()
+                pygame.display.update()
